@@ -3,6 +3,7 @@
 TenYun EcoSystem BlockChain node source code patch to bitcoin core v0.12.1
 
 To play with TenYun node:
+
 1, Clone bitcoin core;
 
     git clone https://github.com/bitcoin/bitcoin.git
