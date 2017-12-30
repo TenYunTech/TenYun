@@ -32,6 +32,6 @@ To play with TenYun node:
 
 7, Import the authorized key pair as default key to the thin node;
     echo 'Ky1CCSRLVpgAGPDbm5c65vMwo21LcuACbzZ7SunK6zStP5sYDxBR 2017-08-24T06:57:54Z label=-defaultkey # addr=1DxXtPEEZ71PoFbaoMScPeF1FxADfVtzhF' > defaultkey.w
-    ./reits-cli -datadir=.reits -rpcuser=user -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=28333 importwallet defaultkey.w
+    ./tenyun-cli -datadir=.tyeos -rpcuser=user -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=28333 importwallet defaultkey.w
 
 8, Now the thin node can connect to the tenyun network, data synchronization begin and you rock.
