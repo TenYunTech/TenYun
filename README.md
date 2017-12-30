@@ -36,3 +36,4 @@ To play with TenYun node:
     ./tenyun-cli -datadir=.tyeos -rpcuser=user -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=28333 importwallet defaultkey.w
 
 8, Now the thin node can connect to the tenyun network, data synchronization begin and you rock.
+
